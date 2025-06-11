@@ -12,7 +12,7 @@ Hi! I am a researcher in the [LiLab](https://lilab.korea.ac.kr/home) at Korea Un
 My research is committed to building human-like conversational AI systems that can communicate with people as friendly and engaging chatbots. My recent primary interests have been in Dialogue Systems, with a focus on:
 1. Long-term dialogue systems
 2. Multi-modal dialogue systems
-I obtained a B.A. in Chinese Studies and a B.S. in Mathematics at Sogang University in 2025. Starting this summer, I will pursue an M.S. in Computer Science at Korea University, where I will be advised by Prof. Buru Chang.
+I obtained a B.A. in Chinese Studies and a B.S. in Mathematics at [Sogang University](https://www.sogang.ac.kr/ko/home) in 2025. Starting this summer, I will pursue an M.S. in Computer Science at Korea University, where I will be advised by [Prof. Buru Chang](https://sites.google.com/view/buru-chang).
 
 
 A data-driven personal website
