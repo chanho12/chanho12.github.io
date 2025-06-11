@@ -19,5 +19,7 @@ I obtained a B.A. in Chinese Studies and a B.S. in Mathematics at [Sogang Univer
 Publications
 ======
 **SHARE: Shared Memory-Aware Open-Domain Long-Term Dialogue Dataset Constructed from Movie Script**
+
 2025, ACL
+
 Eunwon Kim · **Chanho Park** · Buru Chang
