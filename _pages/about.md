@@ -13,7 +13,7 @@ My research is committed to building human-like conversational AI systems that c
 1. Long-term dialogue systems
 2. Multi-modal dialogue systems
 
-I obtained a B.A. in Chinese Studies and a B.S. in Mathematics at [Sogang University](https://www.sogang.ac.kr/ko/home) in 2025. Starting this summer, I will pursue an M.S. in Computer Science at Korea University, where I will be advised by [Prof. Buru Chang](https://sites.google.com/view/buru-chang).
+I obtained a B.A. in Chinese Studies and a B.S. in Mathematics at [Sogang University](https://www.sogang.ac.kr/ko/home) in 2025. This summer, I will begin my M.S. in Computer Science at Korea University, where I will be advised by [Prof. Buru Chang](https://sites.google.com/view/buru-chang).
 
 
 Publications
