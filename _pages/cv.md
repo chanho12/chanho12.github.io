@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, Sogang University, 2025
+* B.S. in Sogang University, 2025
 
 Work experience
 ======
