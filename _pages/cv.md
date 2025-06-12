@@ -15,7 +15,7 @@ Education
 
 Work experience
 ======
-* 2025.03 ~ 2025.08: Research Intern in LILIP(Language & Intelligence Laboratory)[https://lilab.korea.ac.kr/home]
+* 2025.03 ~ 2025.08: Research Intern in [LiLab](https://lilab.korea.ac.kr/home) 
   * Korea University
   * Duties includes:
 - Conducting research on Long-Term Dialogue Systems
