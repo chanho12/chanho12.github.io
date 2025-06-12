@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I am a researcher in the [LiLab](https://lilab.korea.ac.kr/home) at Korea University.
+Hi! I am a research Intern in the [LiLab](https://lilab.korea.ac.kr/home) at Korea University.
 
 My research is committed to building human-like conversational AI systems that can communicate with people as friendly and engaging chatbots. My recent primary interests have been in Dialogue Systems, with a focus on:
 1. Long-term dialogue systems
