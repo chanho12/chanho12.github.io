@@ -22,4 +22,4 @@ Publications
 
 2025, ACL
 
-Eunwon Kim\*, **Chanho Park**\*, Buru Chang (* corresponding author)
+Eunwon Kim\*, **Chanho Park**\*, Buru Chang (*equal contribution)
