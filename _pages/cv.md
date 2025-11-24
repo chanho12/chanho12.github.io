@@ -41,7 +41,6 @@ Skills
 ======
 * Python, C, Notion  
 * PyTorch, HuggingFace Transformers  
-* Multimodal Dialogue Modeling, Long-Term Memory Systems, LLM Fine-Tuning, Dataset Construction
 
 Publications
 ======
