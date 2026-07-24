@@ -1,3 +1,46 @@
+# Chanho Park — Personal Website
+
+반응형 순수 HTML/CSS로 만든 개인 학술 웹사이트입니다. 현재 홈페이지는
+Jekyll, Ruby, Docker 등의 별도 빌드 과정 없이 바로 실행할 수 있습니다.
+
+## 로컬에서 실행
+
+저장소를 내려받은 뒤 프로젝트 폴더에서 다음 명령어를 실행합니다.
+
+```bash
+python3 -m http.server 8000
+```
+
+브라우저에서 [http://localhost:8000](http://localhost:8000)에 접속하면 됩니다.
+서버 없이 `index.html` 파일을 브라우저에서 직접 열어도 확인할 수 있습니다.
+
+## 파일 구성
+
+- `index.html`: 사이트 콘텐츠와 구조
+- `styles.css`: 전체 디자인 및 반응형 스타일
+- `images/profile.png`: 프로필 이미지
+- `files/cv.pdf`: 최신 CV PDF (`../curriculum_vitae/cv.pdf`에서 복사)
+- `.nojekyll`: GitHub Pages의 Jekyll 처리를 비활성화
+
+## GitHub Pages 배포
+
+변경 사항을 `master` 브랜치에 push하면 GitHub Pages가 정적 파일을 그대로
+배포합니다. 저장소의 **Settings → Pages**에서 배포 소스를 `master` 브랜치의
+루트 디렉터리로 지정해야 합니다.
+
+```bash
+git add index.html styles.css .nojekyll README.md
+git commit -m "Update personal website"
+git push origin master
+```
+
+---
+
+## Legacy Academic Pages Template
+
+아래 내용은 이 저장소가 처음 기반으로 사용했던 Academic Pages 템플릿의
+기존 안내입니다. 현재 정적 홈페이지를 실행하는 데는 필요하지 않습니다.
+
 # Academic Pages
 **Academic Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**
 
