@@ -1025,3 +1025,20 @@ main,
 :focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
 @media (max-width: 1050px) and (min-width: 721px) { .site-nav { gap: 10px; } .brand span { display: none; } }
 @media (max-width: 720px) { .project-heading { grid-template-columns: 1fr; gap: 8px; } .project-status { justify-self: start; } }
+
+/* Dated research updates and ETRI recognition. */
+.news-list { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+.news-list li { display: grid; grid-template-columns: 100px minmax(0, 1fr); gap: 22px; padding: 15px 0; border-bottom: 1px solid var(--line); }
+.news-list time { padding-top: 2px; color: var(--accent); font-size: .76rem; font-weight: 700; }
+.news-list p { margin: 0; font-size: .84rem; line-height: 1.7; }
+.news-archive { margin-top: 15px; }
+.news-archive summary { cursor: pointer; color: var(--accent); font-size: .78rem; font-weight: 700; padding: 8px 0; }
+.news-archive summary span { margin-left: 10px; color: var(--muted); font-size: .7rem; font-weight: 400; }
+.news-archive[open] .news-list { margin-top: 8px; }
+.project-status--award { border-color: #dac59b; color: #795619; background: #fcf8ef; }
+.award-callout { margin: 16px 0; padding: 14px 17px; border-left: 3px solid #a77b32; background: #fcf8ef; }
+.award-callout strong { color: #71501a; font-size: .84rem; }
+.award-callout p { margin: 4px 0 0; font-size: .76rem; color: var(--muted); }
+.project-paper-title { font-family: var(--serif); font-size: .85rem; margin: 18px 0 8px; }
+.press-date { margin: 7px 0 0; color: var(--muted); font-size: .68rem; }
+@media (max-width: 720px) { .news-list li { grid-template-columns: 1fr; gap: 4px; padding: 14px 0; } .news-archive summary span { display: block; margin-left: 0; } }
