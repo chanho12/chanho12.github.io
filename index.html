@@ -1,278 +1,261 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Chanho Park — conversational AI researcher working on long-term, multimodal, and persona-aware dialogue systems.">
-    <meta name="theme-color" content="#8d1b2b">
-    <title>Chanho Park</title>
-    <link rel="icon" href="images/favicon.ico">
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <header class="site-header">
-      <a class="brand" href="#top" aria-label="Chanho Park, home">
-        <strong>Chanho Park</strong>
-        <span>Conversational AI Research</span>
-      </a>
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Chanho Park — conversational AI researcher working on long-term, multimodal, and persona-aware dialogue systems." name="description"/>
+<meta content="#8d1b2b" name="theme-color"/>
+<title>Chanho Park</title>
+<link href="images/favicon.ico" rel="icon"/>
+<link href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" rel="stylesheet"/>
+<link href="styles.css?v=20261030" rel="stylesheet"/>
+</head>
+<body>
+<header class="site-header">
+<a aria-label="Chanho Park, home" class="brand" href="#top">
+<strong>Chanho Park</strong>
+<span>Conversational AI Research</span>
+</a>
+<button aria-controls="site-nav" aria-expanded="false" class="menu-button" type="button">
+<span></span><span></span><span></span>
+<span class="sr-only">Open menu</span>
+</button>
+<nav aria-label="Primary navigation" class="site-nav" id="site-nav">
+<a href="#about">About</a><a href="#projects">Projects</a>
+<a href="#research">Research</a>
+<a href="#publications">Publications</a>
+<a href="#education">Education</a>
+<a href="#experience">Experience</a>
 
-      <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">
-        <span></span><span></span><span></span>
-        <span class="sr-only">Open menu</span>
-      </button>
-
-      <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
-        <a href="#about">About</a>
-        <a href="#research">Research</a>
-        <a href="#publications">Publications</a>
-        <a href="#education">Education</a>
-        <a href="#experience">Experience</a>
-        <a href="#projects">Projects</a>
-        <a href="#scholarships">Scholarships</a>
-        <a href="files/cv.pdf" target="_blank" rel="noreferrer">CV ↗</a>
-      </nav>
-    </header>
-
-    <main id="top">
-      <section id="about" class="hero">
-        <div class="hero-copy">
-          <p class="eyebrow">M.S. Student in Computer Science</p>
-          <h1>Chanho Park</h1>
-          <p class="tagline">Conversational AI for meaningful, long-term interaction</p>
-          <p class="affiliation">
-            <a href="https://www.korea.edu/" target="_blank" rel="noreferrer">Korea University</a>
-            <span>·</span>
-            <a href="https://lilab.korea.ac.kr/home" target="_blank" rel="noreferrer">LiLab</a>
-          </p>
-          <p class="location">Seoul, Republic of Korea</p>
-
-          <div class="profile-links" aria-label="External profiles">
-            <a href="mailto:cksgh0984@gmail.com">Email</a>
-            <a href="https://scholar.google.com/citations?user=R4lSj64AAAAJ&hl=en" target="_blank" rel="noreferrer">Scholar</a>
-            <a href="https://github.com/chanho12" target="_blank" rel="noreferrer">GitHub</a>
-            <a href="https://www.linkedin.com/in/chanho12/" target="_blank" rel="noreferrer">LinkedIn</a>
-            <a href="files/cv.pdf" target="_blank" rel="noreferrer">CV</a>
-          </div>
-
-          <p class="intro">
+<a href="#scholarships">Scholarships</a>
+<a href="files/cv.pdf" rel="noreferrer" target="_blank">CV ↗</a>
+</nav>
+</header>
+<main id="top">
+<section class="hero" id="about">
+<div class="hero-copy">
+<p class="eyebrow">M.S. Student in Computer Science</p>
+<h1>Chanho Park</h1>
+<p class="tagline">Conversational AI for meaningful, long-term interaction</p>
+<p class="affiliation">
+<a href="https://www.korea.edu/" rel="noreferrer" target="_blank">Korea University</a>
+<span>·</span>
+<a href="https://lilab.korea.ac.kr/home" rel="noreferrer" target="_blank">LiLab</a>
+</p>
+<p class="location">Seoul, Republic of Korea</p>
+<div aria-label="External profiles" class="profile-links">
+<a href="mailto:cksgh0984@gmail.com">Email</a>
+<a href="https://scholar.google.com/citations?user=R4lSj64AAAAJ&amp;hl=en" rel="noreferrer" target="_blank">Scholar</a>
+<a href="https://github.com/chanho12" rel="noreferrer" target="_blank">GitHub</a>
+<a href="https://www.linkedin.com/in/chanho12/" rel="noreferrer" target="_blank">LinkedIn</a>
+<a href="files/cv.pdf" rel="noreferrer" target="_blank">CV</a>
+</div>
+<p class="intro">
             I am an M.S. student in Computer Science at Korea University, working with
-            <a href="https://sites.google.com/view/buru-chang" target="_blank" rel="noreferrer">Prof. Buru Chang</a>
-            in <a href="https://lilab.korea.ac.kr/home" target="_blank" rel="noreferrer">LiLab</a>.
+            <a href="https://sites.google.com/view/buru-chang" rel="noreferrer" target="_blank">Prof. Buru Chang</a>
+            in <a href="https://lilab.korea.ac.kr/home" rel="noreferrer" target="_blank">LiLab</a>.
             My goal is to build personalized conversational agents that can remember,
             understand, and adapt to users across long-term interactions.
           </p>
+<aside class="focus-box">
+<p class="focus-label">Current focus</p>
+<p>Memory-updating agents that continuously maintain user-specific information from dialogue and behavioral signals.</p>
+</aside><div class="hero-actions"><a class="primary-link" href="#projects">Explore my projects ↓</a><a href="files/cv.pdf" rel="noreferrer" target="_blank">Download CV ↗</a></div>
+<div aria-label="Research snapshot" class="hero-stats">
+<div><strong>02</strong><span>selected research<br/>projects</span></div>
+<div><strong>01</strong><span>EMNLP 2026<br/>main conference</span></div>
+<div><strong>01</strong><span>ACL 2025<br/>main conference</span></div>
+</div>
+</div>
+<figure class="portrait">
+<img alt="Portrait of Chanho Park" src="images/profile.png"/>
+</figure>
+</section><section class="section section-grid" id="projects">
+<header class="section-heading">
+<p class="eyebrow">Research in practice</p>
+<h2>Selected Projects</h2>
+</header>
+<div>
 
-          <aside class="focus-box">
-            <p class="focus-label">Current focus</p>
-            <p>Memory-updating agents that continuously maintain user-specific information from dialogue and behavioral signals.</p>
-          </aside>
-          <div class="hero-stats" aria-label="Research snapshot">
-            <div><strong>03</strong><span>publications<br>and submissions</span></div>
-            <div><strong>02</strong><span>active research<br>projects</span></div>
-            <div><strong>04</strong><span>research<br>directions</span></div>
-          </div>
-        </div>
+<div class="project-list"><article class="project project--featured" id="project-trace">
+<div class="project-heading"><div><p class="project-kicker">TRACE · Memory-Updating Agents</p><h3>Long-Term Conversational Recommendation</h3></div><span class="project-status project-status--published">EMNLP 2026 Main Conference</span></div>
+<div class="project-context"><span>Nov 2025 — Present</span><span>KU-KT AI Center</span><span>Project lead · Equal-contribution author</span></div>
+<p class="project-summary">Personalized recommendation depends on remembering how a user’s preferences change. This project brings long-term conversational recommendation and memory-updating agents together to maintain behavioral and dialogue personas across sessions.</p><h4 class="contribution-heading">My contributions</h4><ul><li>Led the end-to-end design and implementation of the long-term CRS project.</li><li>Built a framework that outperformed established multi-session recommendation baselines.</li><li>Developed a memory-updating agent to maintain behavioral and dialogue personas across sessions.</li><li>Designed quantitative diversity evaluation, demonstrating higher dataset diversity than prior CRS benchmarks.</li></ul>
+<div class="project-actions"><a href="#publication-trace">Publication &amp; authors ↓</a></div><div class="project-tags"><span>Conversational Recommendation</span><span>Persona Updating</span><span>Long-term Memory</span></div></article><article class="project project--featured" id="project-share">
+<div class="project-heading"><div><p class="project-kicker">SHARE · Shared Memories</p><h3>Persona-Aware Long-Term Dialogue</h3></div><span class="project-status project-status--published">ACL 2025 Main Conference</span></div>
+<div class="project-context"><span>Sep 2024 — Mar 2025</span><span>Smilegate AI Center collaboration</span><span>Equal-contribution author</span></div>
+<p class="project-summary">Conversations between people build on shared experiences. SHARE studies long-term dialogue grounded in those experiences, with a memory-aware framework for modeling and updating speaker-specific shared memories.</p><h4 class="contribution-heading">My contributions</h4><ul><li>Collaborated with Smilegate AI Center on long-term dialogue grounded in shared speaker experiences.</li><li>Designed a memory-aware dialogue framework for speaker-specific shared experiences.</li><li>Constructed the dialogue dataset and implemented memory extraction and update logic.</li><li>Fine-tuned language models for memory-aware response generation.</li></ul>
+<div class="project-actions"><a href="https://e1kim.github.io/SHARE-Shared-Memory/" rel="noreferrer" target="_blank">Project page ↗</a><a href="https://aclanthology.org/2025.acl-long.704.pdf" rel="noreferrer" target="_blank">Paper ↗</a><a href="#publication-share">Publication &amp; authors ↓</a></div><div class="project-tags"><span>Dialogue Dataset</span><span>Shared Memory</span><span>Memory-aware Generation</span></div></article></div>
+</div>
+</section>
+<section class="section section-grid" id="research">
+<header class="section-heading">
+<p class="eyebrow">Focus</p>
+<h2>Research Interests</h2>
+</header>
+<div class="research-grid">
+<p class="research-overview">I study natural language processing and multimodal AI to build personalized conversational agents that remember, understand, and adapt to users over long-term interactions.</p>
+<article>
+<span>01</span>
+<h3>Long-term &amp; Memory-aware Dialogue</h3>
+<p>Dialogue systems that extract, retrieve, and update user memories to maintain coherent interactions across sessions.</p>
+</article>
+<article>
+<span>02</span>
+<h3>Conversational Recommendation</h3>
+<p>Persona-aware recommender systems that track evolving preferences and behavioral personas over time.</p>
+</article>
+<article>
+<span>03</span>
+<h3>Agentic Memory Management</h3>
+<p>Memory-updating agents that decide what to retain, revise, retrieve, and forget for personalized interaction.</p>
+</article>
+<article>
+<span>04</span>
+<h3>Multimodal Personalization</h3>
+<p>Conversational agents that combine language and visual context for adaptive, human-centered experiences.</p>
+</article>
 
-        <figure class="portrait">
-          <img src="images/profile.png" alt="Portrait of Chanho Park">
-        </figure>
-      </section>
-
-      <section id="research" class="section section-grid">
-        <header class="section-heading">
-          <p class="eyebrow">Focus</p>
-          <h2>Research Interests</h2>
-        </header>
-        <div class="research-grid">
-          <article>
-            <span>01</span>
-            <h3>Long-term &amp; Memory-aware Dialogue</h3>
-            <p>Dialogue systems that extract, retrieve, and update user memories to maintain coherent interactions across sessions.</p>
-          </article>
-          <article>
-            <span>02</span>
-            <h3>Conversational Recommendation</h3>
-            <p>Persona-aware recommender systems that track evolving preferences and behavioral personas over time.</p>
-          </article>
-          <article>
-            <span>03</span>
-            <h3>Agentic Memory Management</h3>
-            <p>Memory-updating agents that decide what to retain, revise, retrieve, and forget for personalized interaction.</p>
-          </article>
-          <article>
-            <span>04</span>
-            <h3>Multimodal Personalization</h3>
-            <p>Conversational agents that combine language and visual context for adaptive, human-centered experiences.</p>
-          </article>
-        </div>
-      </section>
-
-      <section id="publications" class="section section-grid">
-        <header class="section-heading">
-          <p class="eyebrow">Selected work</p>
-          <h2>Publications</h2>
-        </header>
-        <div class="publication-list">
-          <article class="publication">
-            <div class="publication-meta">
-              <span class="venue">ACL 2025</span>
-              <span>Long-term Dialogue</span>
-            </div>
-            <h3>
-              <a href="https://e1kim.github.io/SHARE-Shared-Memory/" target="_blank" rel="noreferrer">
+</div>
+</section>
+<section class="section section-grid" id="publications">
+<header class="section-heading">
+<p class="eyebrow">Selected work</p>
+<h2>Publications</h2>
+</header>
+<div class="publication-list"><article class="publication" id="publication-trace">
+<div class="publication-meta">
+<span class="venue">EMNLP 2026 Main Conference</span>
+<span>Conversational Recommendation</span>
+</div>
+<h3>TRACE: A Long-Term Conversational Recommendation Dataset with Evolving User Personas</h3>
+<p>Jihyung Ahn<sup>*</sup>, Seonah Han<sup>*</sup>, <strong>Chanho Park<sup>*</sup></strong>, Hyeongwoo Im, Daeyeong Kim, Subin Kim, Buru Chang<sup>†</sup></p>
+<button class="citation-button" data-citation="Jihyung Ahn, Seonah Han, Chanho Park, Hyeongwoo Im, Daeyeong Kim, Subin Kim, and Buru Chang. TRACE: A Long-Term Conversational Recommendation Dataset with Evolving User Personas. EMNLP 2026 Main Conference." type="button">Copy citation</button>
+</article>
+<article class="publication" id="publication-share">
+<div class="publication-meta">
+<span class="venue">ACL 2025 Main Conference</span>
+<span>Long-term Dialogue</span>
+</div>
+<h3>
+<a href="https://e1kim.github.io/SHARE-Shared-Memory/" rel="noreferrer" target="_blank">
                 SHARE: Shared Memory-Aware Open-Domain Long-Term Dialogue Dataset Constructed from Movie Script
               </a>
-            </h3>
-            <p>Eunwon Kim<sup>*</sup>, <strong>Chanho Park<sup>*</sup></strong>, Buru Chang</p>
-            <p class="note"><sup>*</sup> Equal contribution</p>
-            <a class="paper-link" href="https://e1kim.github.io/SHARE-Shared-Memory/" target="_blank" rel="noreferrer">
-              Project page <span aria-hidden="true">↗</span>
-            </a>
-          </article>
-          <article class="publication">
-            <div class="publication-meta">
-              <span class="venue submission">EMNLP 2026 Submission</span>
-              <span>Multimodal Dialogue</span>
-            </div>
-            <h3>RECALL: Retrieval and Contextualized Accumulation of Visual Memory for Long-Term Multimodal Dialogue</h3>
-            <p><strong>Chanho Park</strong>, Jihyung Ahn, Buru Chang<sup>†</sup></p>
-          </article>
-          <article class="publication">
-            <div class="publication-meta">
-              <span class="venue submission">EMNLP 2026 Submission</span>
-              <span>Conversational Recommendation</span>
-            </div>
-            <h3>TRACE: A Long-Term Conversational Recommendation Dataset with Evolving User Personas</h3>
-            <p>Jihyung Ahn<sup>*</sup>, Seonah Han<sup>*</sup>, <strong>Chanho Park<sup>*</sup></strong>, Hyeongwoo Im, Daeyeong Kim, Subin Kim, Buru Chang<sup>†</sup></p>
-          </article>
-          <p class="publication-note"><sup>*</sup> Equal contribution · <sup>†</sup> Corresponding author</p>
-        </div>
-      </section>
+</h3>
+<p>Eunwon Kim<sup>*</sup>, <strong>Chanho Park<sup>*</sup></strong>, Buru Chang<sup>†</sup></p>
+<p class="note"><sup>*</sup> Equal contribution</p>
+<div class="publication-actions">
+<a class="paper-link" href="https://e1kim.github.io/SHARE-Shared-Memory/" rel="noreferrer" target="_blank">
+                Project page <span aria-hidden="true">↗</span>
+</a>
+<button class="citation-button" data-citation="Eunwon Kim, Chanho Park, and Buru Chang. 2025. SHARE: Shared Memory-Aware Open-Domain Long-Term Dialogue Dataset Constructed from Movie Script. In Proceedings of ACL 2025." type="button">Copy citation</button>
+</div>
+</article>
 
-      <section id="education" class="section section-grid">
-        <header class="section-heading">
-          <p class="eyebrow">Background</p>
-          <h2>Education</h2>
-        </header>
-        <div class="timeline">
-          <article>
-            <time>2025 — Present</time>
-            <div>
-              <h3>M.S. in Computer Science</h3>
-              <p>Korea University · Seoul, Korea · Advisor: Prof. Buru Chang</p>
-            </div>
-          </article>
-          <article>
-            <time>Mar 2020 — Aug 2025</time>
-            <div>
-              <h3>B.A. in Chinese Culture · B.S. in Mathematics · B.Eng. in Big Data Science</h3>
-              <p>Sogang University · Seoul, Korea · Triple major</p>
-            </div>
-          </article>
-          <article>
-            <time>Mar 2016 — Feb 2019</time>
-            <div>
-              <h3>Chinese and International Politics</h3>
-              <p>Busan International High School · Busan, Korea</p>
-            </div>
-          </article>
-        </div>
-      </section>
 
-      <section id="experience" class="section section-grid">
-        <header class="section-heading">
-          <p class="eyebrow">Career</p>
-          <h2>Experience</h2>
-        </header>
-        <div class="timeline">
-          <article>
-            <time>Mar 2025 — Present</time>
-            <div>
-              <h3>Research Intern / M.S. Student · LiLab, Korea University</h3>
-              <ul>
-                <li>Research memory-updating agents for conversational recommender systems that track evolving preferences across sessions.</li>
-                <li>Design agentic memory management for extracting, retrieving, and revising long-term user memories.</li>
-                <li>Develop persona-aware and multimodal dialogue systems for personalized interaction.</li>
-              </ul>
-            </div>
-          </article>
-          <article>
-            <time>Mar 2024 — Feb 2025</time>
-            <div>
-              <h3>Research Intern · LDI Lab, Sogang University</h3>
-              <ul>
-                <li>Studied memory-aware open-domain dialogue and constructed long-term conversational datasets.</li>
-                <li>Developed shared-memory modeling, persona extraction, and multi-session dialogue evaluation pipelines.</li>
-                <li>Co-authored SHARE, accepted at the ACL 2025 Main Conference.</li>
-              </ul>
-            </div>
-          </article>
-        </div>
-      </section>
+<p class="publication-note"><sup>*</sup> Equal contribution · <sup>†</sup> Corresponding author</p>
+</div>
+</section>
+<section class="section section-grid" id="education">
+<header class="section-heading">
+<p class="eyebrow">Background</p>
+<h2>Education</h2>
+</header>
+<div class="timeline">
+<article>
+<time>Sep 2025 — Present</time>
+<div>
+<h3>M.S. in Computer Science</h3>
+<p>Korea University · Seoul, Korea · Advisor: Prof. Buru Chang</p>
+</div>
+</article>
+<article>
+<time>Mar 2020 — Aug 2025</time>
+<div>
+<h3>B.A. in Chinese Culture · B.S. in Mathematics · B.Eng. in Big Data Science</h3>
+<p>Sogang University · Seoul, Korea · Triple major</p>
+</div>
+</article>
+<article>
+<time>Mar 2016 — Feb 2019</time>
+<div>
+<h3>Chinese and International Politics</h3>
+<p>Busan International High School · Busan, Korea</p>
+</div>
+</article>
+</div>
+</section>
+<section class="section section-grid" id="experience">
+<header class="section-heading">
+<p class="eyebrow">Career</p>
+<h2>Experience</h2>
+</header>
+<div class="timeline">
+<article>
+<time>Mar 2025 — Present</time>
+<div>
+<h3>Research Intern / M.S. Student · LiLab, Korea University</h3>
+<p class="timeline-context">Advised by Prof. Buru Chang · Seoul, Korea</p>
+<ul>
+<li>Research memory-updating agents for conversational recommender systems that track evolving preferences across sessions.</li>
+<li>Design agentic memory management for extracting, retrieving, and revising long-term user memories.</li>
+<li>Develop persona-aware and multimodal dialogue systems for personalized interaction.</li>
+</ul>
+</div>
+</article>
+<article>
+<time>Mar 2024 — Feb 2025</time>
+<div>
+<h3>Research Intern · LDI Lab, Sogang University</h3>
+<p class="timeline-context">Advised by Prof. Buru Chang · Seoul, Korea</p>
+<ul>
+<li>Studied memory-aware open-domain dialogue and constructed long-term conversational datasets.</li>
+<li>Developed shared-memory modeling, persona extraction, and multi-session dialogue evaluation pipelines.</li>
+<li>Co-authored SHARE, accepted at the ACL 2025 Main Conference.</li>
+</ul>
+</div>
+</article>
+</div>
+</section>
 
-      <section id="projects" class="section section-grid">
-        <header class="section-heading">
-          <p class="eyebrow">Selected work</p>
-          <h2>Projects</h2>
-        </header>
-        <div class="project-list">
-          <article class="project">
-            <div class="project-heading">
-              <h3>Long-Term Conversational Recommendation with Memory-Updating Agents</h3>
-              <time>Nov 2025 — Present</time>
-            </div>
-            <ul>
-              <li>Lead the end-to-end design and implementation of the KU–KT AI Center long-term CRS project.</li>
-              <li>Built a long-term CRS framework that outperformed established multi-session recommendation baselines.</li>
-              <li>Developed a memory-updating agent for maintaining behavioral and dialogue personas across sessions.</li>
-              <li>Designed quantitative diversity evaluation and demonstrated higher dataset diversity than prior CRS benchmarks.</li>
-            </ul>
-          </article>
-          <article class="project">
-            <div class="project-heading">
-              <h3>Persona-Aware Long-Term Dialogue with Shared Memories</h3>
-              <time>Sep 2024 — Mar 2025</time>
-            </div>
-            <ul>
-              <li>Collaborated with Smilegate AI Center on long-term dialogue grounded in shared speaker experiences.</li>
-              <li>Designed a memory-aware dialogue framework for modeling speaker-specific shared experiences.</li>
-              <li>Constructed the dataset and implemented memory extraction and update logic.</li>
-              <li>Fine-tuned language models for memory-aware response generation, resulting in SHARE at ACL 2025.</li>
-            </ul>
-          </article>
-        </div>
-      </section>
-
-      <section id="scholarships" class="section section-grid">
-        <header class="section-heading">
-          <p class="eyebrow">Recognition</p>
-          <h2>Scholarships</h2>
-        </header>
-        <div class="timeline">
-          <article>
-            <time>Fall 2025 — Fall 2026</time>
-            <div>
-              <h3>AI Seoul Tech Graduate Scholarship</h3>
-              <p>Seoul Metropolitan Government &amp; Seoul Future Foundation</p>
-            </div>
-          </article>
-          <article>
-            <time>Fall 2024</time>
-            <div>
-              <h3>Sogang University Alumni Association Scholarship</h3>
-              <p>Sogang University</p>
-            </div>
-          </article>
-        </div>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <p>© <span id="year"></span> Chanho Park</p>
-      <a href="#top">Back to top ↑</a>
-    </footer>
-
-    <script>
+<section class="section section-grid" id="scholarships">
+<header class="section-heading">
+<p class="eyebrow">Recognition</p>
+<h2>Scholarships</h2>
+</header>
+<div class="timeline">
+<article>
+<time>Fall 2025; Spring &amp; Fall 2026</time>
+<div>
+<h3>AI Seoul Tech Graduate Scholarship</h3>
+<p>Seoul Metropolitan Government &amp; Seoul Future Foundation</p>
+</div>
+</article>
+<article>
+<time>Fall 2024</time>
+<div>
+<h3>Sogang Alumni Association Scholarship</h3>
+<p>Sogang Alumni Scholarship Association</p>
+</div>
+</article>
+<article><time>Spring 2021 — Fall 2023</time><div><h3>Doosan Yonkang Foundation Scholarship</h3><p>Doosan Yonkang Foundation</p></div></article></div>
+</section>
+<section aria-labelledby="visitor-map-title" class="visitor-map">
+<div>
+<p class="eyebrow">Visitors</p>
+<h2 id="visitor-map-title">Who is visiting?</h2>
+<p class="visitor-location" id="visitor-location">Locating this visit by IP...</p>
+</div>
+<div aria-label="Approximate visitor location map" class="visitor-map-canvas" id="visitor-map-canvas" role="img"></div>
+</section>
+</main>
+<footer class="site-footer">
+<p>© <span id="year"></span> Chanho Park</p>
+<a href="#top">Back to top ↑</a>
+</footer>
+<script crossorigin="" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
       const menuButton = document.querySelector(".menu-button");
       const navigation = document.querySelector(".site-nav");
 
@@ -288,6 +271,129 @@
       });
 
       document.querySelector("#year").textContent = new Date().getFullYear();
+
+      async function copyCitation(button) {
+        const citation = button.dataset.citation;
+        const originalLabel = button.textContent;
+
+        try {
+          if (navigator.clipboard && window.isSecureContext) {
+            await navigator.clipboard.writeText(citation);
+          } else {
+            throw new Error("Clipboard API unavailable");
+          }
+
+          button.textContent = "Copied";
+        } catch (error) {
+          const textArea = document.createElement("textarea");
+          textArea.value = citation;
+          textArea.setAttribute("readonly", "");
+          textArea.style.position = "fixed";
+          textArea.style.opacity = "0";
+          document.body.appendChild(textArea);
+          textArea.select();
+          const copied = document.execCommand("copy");
+          textArea.remove();
+          button.textContent = copied ? "Copied" : "Copy failed";
+        }
+
+        window.setTimeout(() => {
+          button.textContent = originalLabel;
+        }, 1800);
+      }
+
+      document.querySelectorAll(".citation-button").forEach((button) => {
+        button.addEventListener("click", () => copyCitation(button));
+      });
+
+      const sectionLinks = [...document.querySelectorAll('.site-nav a[href^="#"]')];
+      const observedSections = sectionLinks
+        .map((link) => document.querySelector(link.getAttribute("href")))
+        .filter(Boolean);
+
+      function updateCurrentSection() {
+        const marker = window.scrollY + 150;
+        const currentSection = observedSections.reduce((current, section) => (
+          section.offsetTop <= marker ? section : current
+        ), observedSections[0]);
+
+        sectionLinks.forEach((link) => {
+          const isCurrent = link.getAttribute("href") === `#${currentSection.id}`;
+          link.classList.toggle("is-current", isCurrent);
+
+          if (isCurrent) {
+            link.setAttribute("aria-current", "location");
+          } else {
+            link.removeAttribute("aria-current");
+          }
+        });
+      }
+
+      window.addEventListener("scroll", updateCurrentSection, { passive: true });
+      window.addEventListener("resize", updateCurrentSection);
+      updateCurrentSection();
+
+      const visitorMapCanvas = document.querySelector("#visitor-map-canvas");
+      const visitorLocation = document.querySelector("#visitor-location");
+
+      async function renderVisitorMap() {
+        if (!window.L || !visitorMapCanvas || !visitorLocation) {
+          return;
+        }
+
+        const map = L.map(visitorMapCanvas, {
+          attributionControl: true,
+          dragging: true,
+          scrollWheelZoom: false
+        }).setView([20, 0], 2);
+
+        L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+          maxZoom: 18,
+          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+        }).addTo(map);
+
+        try {
+          const response = await fetch("https://ipwho.is/");
+
+          if (!response.ok) {
+            throw new Error("Location lookup failed");
+          }
+
+          const data = await response.json();
+
+          if (data.success === false) {
+            throw new Error(data.message || "Location lookup failed");
+          }
+
+          const latitude = Number(data.latitude);
+          const longitude = Number(data.longitude);
+
+          if (!Number.isFinite(latitude) || !Number.isFinite(longitude)) {
+            throw new Error("Location lookup returned no coordinates");
+          }
+
+          const place = [data.city, data.region, data.country].filter(Boolean).join(", ");
+          const markerText = place || "Approximate visitor location";
+
+          map.setView([latitude, longitude], 9);
+          L.circleMarker([latitude, longitude], {
+            radius: 8,
+            color: "#8d1b2b",
+            weight: 2,
+            fillColor: "#8d1b2b",
+            fillOpacity: 0.75
+          }).addTo(map).bindPopup(markerText);
+
+          visitorLocation.textContent = place
+            ? `Current visit indexed near ${place}.`
+            : "Current visit indexed from approximate IP location.";
+        } catch (error) {
+          visitorLocation.textContent = "Visitor location map is unavailable right now.";
+        }
+      }
+
+      renderVisitorMap();
     </script>
-  </body>
+</body>
 </html>
+
